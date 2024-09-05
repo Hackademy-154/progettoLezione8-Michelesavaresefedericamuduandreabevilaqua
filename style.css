@@ -84,8 +84,7 @@
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
 }
-/* background: rgb(217,220,214);
-background: radial-gradient(circle, rgba(217,220,214,1) 0%, rgba(22,66,91,1) 100%); */
+
 
 .btnCustom2{
     background: rgb(58,124,165);
@@ -94,7 +93,7 @@ background: radial-gradient(circle, rgba(217,220,214,1) 0%, rgba(22,66,91,1) 100
 }
 
 
-/* :root:{
+:root:{
 --main: #D9DCD6;
 --sec: #81C3D7;
 --acc: #16425B;
@@ -127,6 +126,10 @@ background-size: cover;
 
 .imagineworld{
     width: 50%;
+}
+
+.customCard{
+    border-bottom: 3px solid black ;
 }
 
 .ubuntu-mono-regular {
