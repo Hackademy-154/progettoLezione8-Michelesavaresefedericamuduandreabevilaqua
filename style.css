@@ -1,0 +1,30 @@
+/* :root:{
+--main: #D9DCD6;
+--sec: #81C3D7;
+--acc: #16425B;
+} */
+
+body{
+    background-color: #D9DCD6;
+}
+
+.customHeader{
+background-image: url(https://movieplayer.net-cdn.it/t/images/2024/04/27/shaman-king-flowers-recensione-anime-sequel-netflix_cropped_0_20_1600_920_jpeg_1600x900_crop_q85.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.titolocard{
+    height: 30%;
+    width: 55%;
+    border: 4px solid #16425B;
+    border-radius: 45px;
+    background-color: #3a7ca58c;
+    color: #81C3D7;
+    text-shadow: 2px 2px #2F6690;
+    backdrop-filter: blur(3px);
+}
+
+.imagineworld{
+    width: 50%;
+}
