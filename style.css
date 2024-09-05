@@ -1,4 +1,63 @@
-/* :root:{
+.bg-skyBlue{
+    background-color: #81c3d7;
+}
+
+.logoNav{
+    height: 50%;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar-toggler{
+    color: transparent;
+}
+
+.trigger {
+    position: fixed;
+    z-index: 2;
+    right: -3;
+    top: 2;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bars {
+    width: 80px;
+    cursor: pointer;
+}
+.bars .line {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 4;
+    stroke-linecap: square;
+    transition: stroke-dasharray 400ms,  stroke-dashoffset 400ms;
+}
+.bars .line.top {
+    stroke-dasharray: 40 172;
+}
+.bars .line.middle {
+    stroke-dasharray: 40 111;
+}
+.bars .line.bottom {
+    stroke-dasharray: 40 172;
+}
+.bars.active .top {
+    stroke-dashoffset: -132px;
+}
+.bars.active .middle {
+    stroke-dashoffset: -71px;
+}
+.bars.active .bottom {
+    stroke-dashoffset: -132px;
+}
+
+.btnCustom{
+    background: rgb(255,55,55);
+    background: linear-gradient(180deg, rgba(255,55,55,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
+    color: white;
+    /* height: 60px; */
+    width: 55px;
+    border-radius: 50%;
+}/* :root:{
 --main: #D9DCD6;
 --sec: #81C3D7;
 --acc: #16425B;
