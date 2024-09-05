@@ -16,4 +16,92 @@
   }
   .btn-custom:hover {
     background-color: #25516d; /* Colore al passaggio del mouse */
-  }
+  }.bg-skyBlue{
+    background-color: #81c3d7;
+}
+
+.logoNav{
+    height: 50%;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar-toggler{
+    color: transparent;
+}
+
+.trigger {
+    position: fixed;
+    z-index: 2;
+    right: -3;
+    top: 2;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bars {
+    width: 80px;
+    cursor: pointer;
+}
+.bars .line {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 4;
+    stroke-linecap: square;
+    transition: stroke-dasharray 400ms,  stroke-dashoffset 400ms;
+}
+.bars .line.top {
+    stroke-dasharray: 40 172;
+}
+.bars .line.middle {
+    stroke-dasharray: 40 111;
+}
+.bars .line.bottom {
+    stroke-dasharray: 40 172;
+}
+.bars.active .top {
+    stroke-dashoffset: -132px;
+}
+.bars.active .middle {
+    stroke-dashoffset: -71px;
+}
+.bars.active .bottom {
+    stroke-dashoffset: -132px;
+}
+
+.btnCustom{
+    background: rgb(255,55,55);
+    background: linear-gradient(180deg, rgba(255,55,55,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
+    color: white;
+    /* height: 60px; */
+    width: 55px;
+    border-radius: 50%;
+}/* :root:{
+--main: #D9DCD6;
+--sec: #81C3D7;
+--acc: #16425B;
+} */
+
+body{
+    background-color: #D9DCD6;
+}
+
+.customHeader{
+background-image: url(https://movieplayer.net-cdn.it/t/images/2024/04/27/shaman-king-flowers-recensione-anime-sequel-netflix_cropped_0_20_1600_920_jpeg_1600x900_crop_q85.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.titolocard{
+    height: 30%;
+    width: 55%;
+    border: 4px solid #16425B;
+    border-radius: 45px;
+    background-color: #3a7ca58c;
+    color: #81C3D7;
+    text-shadow: 2px 2px #2F6690;
+    backdrop-filter: blur(3px);
+}
+
+.imagineworld{
+    width: 50%;
+}
