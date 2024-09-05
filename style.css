@@ -1,0 +1,19 @@
+
+  .card {
+    background-color: #3A7CA5; 
+    color: white;
+  }
+  .card-img-top {
+    /* height: 250px; */
+    object-fit: cover;
+    
+  }
+  .btn-custom {
+    background-color: #2F6690; /* Colore del bottone */
+    color: white;
+    display: block;
+    margin: 0 auto; 
+  }
+  .btn-custom:hover {
+    background-color: #25516d; /* Colore al passaggio del mouse */
+  }
