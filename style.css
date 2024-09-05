@@ -72,10 +72,11 @@
     background: rgb(255,55,55);
     background: linear-gradient(180deg, rgba(255,55,55,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
     color: white;
-    /* height: 60px; */
+    height: 60px;
     width: 55px;
     border-radius: 50%;
-}/* :root:{
+}
+:root:{
 --main: #D9DCD6;
 --sec: #81C3D7;
 --acc: #16425B;
